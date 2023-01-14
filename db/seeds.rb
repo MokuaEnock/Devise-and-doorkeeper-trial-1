@@ -10,5 +10,5 @@ User.first_or_create(
   email: "mokua@gmail.com",
   password: "12345678",
   password_confirmation: "12345678",
-  role: User.role[:admin]
+  role: User.roles[:admin]
 )
